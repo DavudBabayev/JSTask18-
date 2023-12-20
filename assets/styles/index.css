@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.container {
+  margin: auto;
+  padding: 0 32px;
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+}
+
+nav {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 123;
+}
+nav .navcon {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .navcon a {
+  font-family: 20px;
+  color: black;
+  font-weight: 600;
+}
+nav .navcon ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+nav .navcon ul a {
+  font-size: 16px;
+  font-weight: 400;
+}
+nav .navcon ul a:active {
+  color: white;
+}
+nav .navcon i {
+  display: none;
+  font-style: normal;
+}
+
+.navmenu {
+  width: 100%;
+  margin-top: -320px;
+  min-height: 320px;
+  background-color: #1c5b7b;
+  padding-left: 32px;
+}
+.navmenu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.navmenu ul a {
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    background-color: #1c5b7b;
+  }
+  nav .navcon {
+    height: 60px;
+  }
+  nav .navcon a {
+    color: white;
+  }
+  nav .navcon ul {
+    display: none;
+  }
+  nav .navcon i {
+    display: block;
+    color: white;
+  }
+}
+.section1 {
+  width: 100%;
+  background-color: #d4eaf5;
+  display: flex;
+  margin-top: -140px;
+}
+.section1 .sec1con {
+  width: 50%;
+}
+.section1 .sec1con .text {
+  padding-top: 120px;
+  width: 80%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+.section1 .sec1con .text h2 {
+  font-weight: 300;
+  font-size: 50px;
+  color: #1c5b7b;
+}
+.section1 .sec1con .text h1 {
+  font-size: 45px;
+  color: #1c5b7b;
+  font-weight: 700;
+}
+.section1 .sec1con .text p {
+  font-size: 18px;
+  color: gray;
+}
+.section1 .sec1con .text a {
+  color: #1c5b7b;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.35);
+}
+.section1 .sec1con .text a:hover {
+  box-shadow: none;
+}
+.section1 .right {
+  width: 50%;
+  min-height: 100vh;
+  background-image: url("https://preview.colorlib.com/theme/furnish/images/bg_2.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (max-width: 992px) {
+  .section1 .sec1con .text {
+    width: 120%;
+    left: 75%;
+  }
+}/*# sourceMappingURL=index.css.map */

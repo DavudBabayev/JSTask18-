@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.container{
+    margin: auto;
+    padding: 0 32px;
+    max-width: 1200px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+button{
+    border: none;
+}
+
+@import 'nav';
+@import 'section1';
